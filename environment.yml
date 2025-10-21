@@ -15,7 +15,7 @@ dependencies:
   - anyio=4.11.0=pyhcf101f3_0
   - aom=3.4.0=h27087fc_1
   - arrow-cpp=21.0.0=h4e7ead5_0
-  - async-timeout=5.0.1=pyhd8ed1ab_1
+  - async-timeout=4.0.3=pyhd8ed1ab_0
   - attrs=25.4.0=pyh71513ae_0
   - aws-c-auth=0.9.0=hb25bd0a_2
   - aws-c-cal=0.9.2=he7b75e1_1
@@ -113,10 +113,20 @@ dependencies:
   - jinja2=3.1.6=pyhd8ed1ab_0
   - joblib=1.5.2=pyhd8ed1ab_0
   - jpeg=9e=h166bdaf_2
+  - jsonpatch=1.33=pyhd8ed1ab_1
+  - jsonpointer=3.0.0=py310hff52083_2
   - keyutils=1.6.3=hb9d3cd8_0
   - kiwisolver=1.4.9=py310haaf941d_1
   - krb5=1.20.1=h81ceb04_0
   - lame=3.100=h166bdaf_1003
+  - langchain=1.0.0=pymin310_h332efcf_0
+  - langchain-core=1.0.0=pyhd8ed1ab_0
+  - langchain-text-splitters=0.3.11=pyhd8ed1ab_0
+  - langgraph=1.0.1=pyhd8ed1ab_0
+  - langgraph-checkpoint=3.0.0=pyhcf101f3_0
+  - langgraph-prebuilt=1.0.1=pyhcf101f3_0
+  - langgraph-sdk=0.2.9=pyhcf101f3_0
+  - langsmith=0.4.32=py310h06a4308_0
   - lcms2=2.16=hb9589c4_0
   - ld_impl_linux-64=2.44=ha97dd6f_2
   - lerc=4.0.0=h0aef613_1
@@ -232,6 +242,8 @@ dependencies:
   - openldap=2.6.10=he9288cc_1
   - openssl=3.5.4=h26f9b46_0
   - orc=2.2.0=h372e9aa_0
+  - orjson=3.11.3=py310hd8f68c5_1
+  - ormsgpack=1.11.0=py310h9e4f49e_1
   - packaging=25.0=pyh29332c3_1
   - pandas=2.3.3=py310h0158d43_1
   - patsy=1.0.2=pyhcf101f3_0
@@ -282,6 +294,7 @@ dependencies:
   - regex=2025.9.18=py310h7c4b9e2_0
   - reportlab=4.4.4=py310h7c4b9e2_0
   - requests=2.32.5=pyhd8ed1ab_0
+  - requests-toolbelt=1.0.0=pyhd8ed1ab_1
   - rich=14.2.0=pyhcf101f3_0
   - rich-toolkit=0.15.1=pyhcf101f3_0
   - rlpycairo=0.4.0=pyh6c17108_0
@@ -303,6 +316,7 @@ dependencies:
   - statsmodels=0.14.5=py310hf779ad0_1
   - svt-av1=1.2.0=h27087fc_0
   - sympy=1.14.0=pyh2585a3b_105
+  - tenacity=9.1.2=pyhd8ed1ab_0
   - threadpoolctl=3.6.0=pyhecae5ae_0
   - tk=8.6.13=noxft_hd72426e_102
   - tokenizers=0.22.1=py310h04b4747_0
